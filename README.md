@@ -11,6 +11,8 @@ This project uses the following softwares and libraries:
 ## Data Munging 
 The dataset can be found at at the Packt Publishing website with filename: snsdata.csv. 
 After collecting and reading the data, I have treated the missing values. As the "Gender" has more number of Female counts, we have replaced the missing values with Female in that column. Missing values in "Age" column are repalced with the mean of the same column. 
-#Hyperparameter Optimizing.
+## Hyperparameter Optimizing.
 
-After data munging part, we come to Hyperparameter optimizing part, in which we plotted an Elbow plot (# of clusters VS Sum Squared Distance) and predicted the value of K, that is number of clusters, to be 5, becuase after k = 5, the curve of Sum Square Distance stabilizes. (The Elbow plot has been attached in the same repository. 
+After data munging part, we come to Hyperparameter optimizing part, in which we plotted an Elbow plot (# of clusters VS Sum Squared Distance) and predicted the value of K, that is number of clusters, to be 5, becuase after k = 5, the curve of Sum Square Distance stabilizes. Click here (https://github.com/NikhilSalv/SNS-Data-Analysis-with-K-Means-Clustering/blob/main/SNS%20Elbowplot.png) to check the Elbowplot of K vs SSD.
+# Running the model on the dataset.
+After predicting the value of K, we run the K-Means Clustering algorithm on the SNS dataset. The output denotes the 5 clusters. The output column is row-wise combined with the original dataset. And we can see that which record belongs to which cluster. 
