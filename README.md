@@ -8,8 +8,7 @@ This project uses the following softwares and libraries:
 - RStudio (https://rstudio.com/)
 - KMeans (https://www.jstor.org/stable/2346830?origin=crossref)
 
-## Data Munging 
-The dataset can be found at at the Packt Publishing website with filename: snsdata.csv. 
+## Data Munging  
 After collecting and reading the data, I have treated the missing values. As the "Gender" has more number of Female counts, we have replaced the missing values with Female in that column. Missing values in "Age" column are repalced with the mean of the same column. 
 ## Hyperparameter Optimizing.
 
